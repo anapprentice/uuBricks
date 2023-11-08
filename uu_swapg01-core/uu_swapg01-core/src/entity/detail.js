@@ -1,5 +1,5 @@
 //@@viewOn:imports
-import { createVisualComponent, Utils, Content } from "uu5g05";
+import { createVisualComponent, Utils } from "uu5g05";
 import Config from "./config/config.js";
 //@@viewOff:imports
 
@@ -15,10 +15,30 @@ const Css = {
 //@@viewOn:helpers
 //@@viewOff:helpers
 
+const AreaView = (props) => (
+  <div style={{ background: "cornflowerblue" }}>
+    <p>
+      <strong>Id:</strong> {props.data.id}
+    </p>
+    <p>
+      <strong>Name:</strong> {props.data.speciesName}
+    </p>
+    <p>
+      <strong>Class:</strong> {props.data.class}
+    </p>
+  </div>
+);
+
+const InlineView = (props) => (
+  <p>
+    <strong>Id:</strong> {props.data.id}
+  </p>
+);
+
 const Detail = createVisualComponent({
   //@@viewOn:statics
   uu5Tag: Config.TAG + "Detail",
-  nestingLevel: ["areaCollection", "area"],
+  nestingLevel: ["area", "box", "spot", "inline"],
   //@@viewOff:statics
 
   //@@viewOn:propTypes
@@ -33,7 +53,7 @@ const Detail = createVisualComponent({
 
   render(props) {
     //@@viewOn:private
-    const { data } = props;
+    // const { data } = props;
     //@@viewOff:private
 
     //@@viewOn:interface
@@ -43,23 +63,14 @@ const Detail = createVisualComponent({
     const attrs = Utils.VisualComponent.getAttrs(props, Css.main());
     const currentNestingLevel = Utils.NestingLevel.getNestingLevel(props, Detail);
 
-    return currentNestingLevel ? (
-      <div {...attrs}>
-        <Content nestingLevel={currentNestingLevel}>
-          <div style={{ background: "cornflowerblue" }}>
-            <p>
-              <strong>Id:</strong> {data.id}
-            </p>
-            <p>
-              <strong>Name:</strong> {data.speciesName}
-            </p>
-            <p>
-              <strong>Class:</strong> {data.class}
-            </p>
-          </div>
-        </Content>
-      </div>
-    ) : null;
+    return (
+      <>
+        {currentNestingLevel === "area" && <AreaView {...attrs} {...props} />}
+        {currentNestingLevel === "box" && <AreaView {...attrs} {...props} />}
+        {currentNestingLevel === "spot" && <InlineView {...attrs} {...props} />}
+        {currentNestingLevel === "inline" && <InlineView {...attrs} {...props} />}
+      </>
+    );
     //@@viewOff:render
   },
 });
