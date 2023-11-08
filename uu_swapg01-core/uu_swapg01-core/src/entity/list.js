@@ -4,6 +4,7 @@ import Uu5TilesElements from "uu5tilesg02-elements";
 import Uu5TilesControls from "uu5tilesg02-controls";
 import Uu5Tiles from "uu5tilesg02";
 import Config from "./config/config.js";
+import Detail from "./detail";
 // import { DATA, COLUMN_LIST, Tile } from "uu5tilesg02/assets/mocks/animal-mocks.jsx";
 //@@viewOff:imports
 
@@ -24,6 +25,11 @@ const ColumnData = createComponent({
   render(props) {
     const { data, value } = props;
     const result = data[value] && typeof data[value] === "object" ? JSON.stringify(data[value]) : data[value];
+
+    if (value === "description") {
+      return <Detail nestingLevel={"inline"} data={data} />;
+    }
+
     return result ?? null;
   },
 });
@@ -53,6 +59,12 @@ const SERIE_LIST = [
     value: "location",
     label: "Location",
     dataItem: (data) => <ColumnData value="location" data={data.data} />,
+    fixed: "end",
+  },
+  {
+    value: "description",
+    label: "Description",
+    dataItem: (data) => <ColumnData value="description" data={data.data} />,
     fixed: "end",
   },
 ];

@@ -30,9 +30,9 @@ const AreaView = (props) => (
 );
 
 const InlineView = (props) => (
-  <p>
+  <span>
     <strong>Id:</strong> {props.data.id}
-  </p>
+  </span>
 );
 
 const Detail = createVisualComponent({
