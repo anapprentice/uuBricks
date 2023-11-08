@@ -35,6 +35,21 @@
         "imageUri": "",
         "uuEccReady": false,
         "template": "<UuSwapCore.Entity.List />"
+      },
+      {
+        "code": "UuSwapCore.Entity.Detail",
+        "name": "Detail",
+        "tagList": [
+          "UuSwapCore",
+          "Entity",
+          "Detail"
+        ],
+        "docCode": "UuSwapCoreEntityDetail",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuSwapCore.Entity.Detail />"
       }
     ]
   }
