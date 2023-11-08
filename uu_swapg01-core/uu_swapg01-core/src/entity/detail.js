@@ -1,5 +1,6 @@
 //@@viewOn:imports
-import { createVisualComponent, Utils } from "uu5g05";
+import { createVisualComponent, useState, Utils } from "uu5g05";
+import Uu5Elements from "uu5g05-elements";
 import Config from "./config/config.js";
 //@@viewOff:imports
 
@@ -30,7 +31,7 @@ const AreaView = (props) => (
 );
 
 const InlineView = (props) => (
-  <span>
+  <span onClick={props.onClick}>
     <strong>Id:</strong> {props.data.id}
   </span>
 );
@@ -60,15 +61,20 @@ const Detail = createVisualComponent({
     //@@viewOff:interface
 
     //@@viewOn:render
+    const [open, setOpen] = useState();
     const attrs = Utils.VisualComponent.getAttrs(props, Css.main());
     const currentNestingLevel = Utils.NestingLevel.getNestingLevel(props, Detail);
 
     return (
       <>
+        <Uu5Elements.Modal {...props} header={"header"} open={open} onClose={() => setOpen(false)}>
+          <AreaView {...attrs} {...props} />
+        </Uu5Elements.Modal>
+
         {currentNestingLevel === "area" && <AreaView {...attrs} {...props} />}
         {currentNestingLevel === "box" && <AreaView {...attrs} {...props} />}
-        {currentNestingLevel === "spot" && <InlineView {...attrs} {...props} />}
-        {currentNestingLevel === "inline" && <InlineView {...attrs} {...props} />}
+        {currentNestingLevel === "spot" && <InlineView {...attrs} {...props} onClick={() => setOpen(true)} />}
+        {currentNestingLevel === "inline" && <InlineView {...attrs} {...props} onClick={() => setOpen(true)} />}
       </>
     );
     //@@viewOff:render
