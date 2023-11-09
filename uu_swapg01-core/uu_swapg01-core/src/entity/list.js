@@ -2,6 +2,7 @@
 import { createComponent, createVisualComponent, Utils, useState } from "uu5g05";
 import Uu5TilesElements from "uu5tilesg02-elements";
 import Uu5TilesControls from "uu5tilesg02-controls";
+import Uu5Elements from "uu5g05-elements";
 import Uu5Tiles from "uu5tilesg02";
 import Config from "./config/config.js";
 import Detail from "./detail";
@@ -65,6 +66,21 @@ const SERIE_LIST = [
     value: "description",
     label: "Description",
     dataItem: (data) => <ColumnData value="description" data={data.data} />,
+    fixed: "end",
+  },
+  {
+    value: "touchButton",
+    label: "Detail",
+    dataItem: (data) => (
+      <Uu5Elements.TouchButton
+        // fixme: hardcoded ref to demo file
+        onClick={() => window.open(`detail2.html?data=${JSON.stringify(data.data)}`, "_blank")}
+        size="s"
+        icon="uugds-open-in-new"
+        i2con="uugds-open-in-new"
+      />
+    ),
+    visible: "always",
     fixed: "end",
   },
 ];
