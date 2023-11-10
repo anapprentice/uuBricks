@@ -1,0 +1,1987 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UuSwapCore.Entity.List className="test-classname" 1`] = `
+<div
+  className="uuswapcore-entity-0 test-classname"
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List default props 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List disabled=false 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  disabled={false}
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List disabled=true 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  disabled={true}
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List elementAttrs={"data":{"test":"data-test-value"}} 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  data={
+    {
+      "test": "data-test-value",
+    }
+  }
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List fullTextSearchPriority=0 1`] = `
+<div
+  className="uuswapcore-entity-0 uu-fulltextsearch-0"
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List hidden=false 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  hidden={false}
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List hidden=true 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  hidden={true}
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List id="test-id" 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  id="test-id"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List nestingLevel="box" 1`] = `""`;
+
+exports[`UuSwapCore.Entity.List nestingLevel="inline" 1`] = `""`;
+
+exports[`UuSwapCore.Entity.List noPrint=false 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List noPrint=true 1`] = `
+<div
+  className="uuswapcore-entity-0 uu-1ak6bum"
+  id="uuID"
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;
+
+exports[`UuSwapCore.Entity.List style={"margin":8} 1`] = `
+<div
+  className="uuswapcore-entity-0"
+  id="uuID"
+  style={
+    {
+      "margin": 8,
+    }
+  }
+>
+  <div>
+    Visual Component 
+    UuSwapCore.Entity.List
+  </div>
+  <Uu5Tiles.ControllerProvider
+    data={
+      [
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Felidae",
+          "id": "tygr01",
+          "location": "Asia",
+          "order": "Carnivora",
+          "speciesName": "Bengal tiger",
+          "speciesTaxonomyName": "Panthera tigris",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "pavian01",
+          "location": "Africa",
+          "order": "Primates",
+          "speciesName": "Hamadryas baboon",
+          "speciesTaxonomyName": "Papio hamadryas",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cebidae",
+          "id": "malpa01",
+          "location": "America",
+          "order": "Primates",
+          "speciesName": "Golden-bellied capuchin",
+          "speciesTaxonomyName": "Sapajus xanthostemos",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Cercopithecidae",
+          "id": "langur01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Red-shanked douc",
+          "speciesTaxonomyName": "Pygathrix nemaeus",
+        },
+        {
+          "class": "Mammalia",
+          "description": "",
+          "family": "Hominidae",
+          "id": "orangutan01",
+          "location": "Asia",
+          "order": "Primates",
+          "speciesName": "Sumatran orangutan",
+          "speciesTaxonomyName": "Pongo abelii",
+        },
+        {
+          "class": "Reptilia",
+          "description": "",
+          "family": "Varanidae",
+          "id": "varan02",
+          "location": "Asia",
+          "order": "Squamata",
+          "speciesName": "Komodo dragon",
+          "speciesTaxonomyName": "Varanus komodoensis",
+        },
+      ]
+    }
+    filterDefinitionList={
+      [
+        {
+          "filter": [Function],
+          "inputProps": {
+            "placeholder": {
+              "cs": "Zadejte hodnotu",
+              "en": "Enter value",
+            },
+          },
+          "key": "speciesName",
+          "label": "Species name",
+        },
+      ]
+    }
+    filterList={[]}
+    onFilterChange={[Function]}
+    onSerieChange={[Function]}
+    onSorterChange={[Function]}
+    serieList={
+      [
+        {
+          "dataItem": [Function],
+          "fixed": "start",
+          "label": "Species Name",
+          "value": "speciesName",
+          "visible": "always",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Class",
+          "value": "class",
+        },
+        {
+          "dataItem": [Function],
+          "label": "Order",
+          "value": "order",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "label": "Family",
+          "value": "family",
+          "visible": false,
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Location",
+          "value": "location",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Description",
+          "value": "description",
+        },
+        {
+          "dataItem": [Function],
+          "fixed": "end",
+          "label": "Detail",
+          "value": "touchButton",
+          "visible": "always",
+        },
+      ]
+    }
+    sorterDefinitionList={
+      [
+        {
+          "key": "speciesName",
+          "label": "Species name",
+          "sort": [Function],
+        },
+      ]
+    }
+    sorterList={[]}
+  >
+    <Uu5TilesControls.FilterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SorterBar
+      initialExpanded={true}
+    />
+    <Uu5TilesControls.SerieButton />
+    <Uu5TilesControls.SerieManagerModal />
+    <Uu5TilesElements.List />
+  </Uu5Tiles.ControllerProvider>
+</div>
+`;

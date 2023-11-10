@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UuSwap.Entity.Detail Demo</title>
+
+    <script src="https://cdn.plus4u.net/uu-uu5loaderg01/1.0.0/uu5loaderg01.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plus4u.net/uu-uu5g05/1.0.0/assets/example-config.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plus4u.net/uu-swapg01/0.0.0/assets/example-config.js" crossorigin="anonymous"></script>
+
+    <style>
+      body {
+        padding: 16px 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="renderHere"></div>
+
+    <script type="text/babel">
+      import { Utils, createComponent } from "uu5g05";
+      import UuSwap from "uu_swapg01";
+
+      const Page = createComponent({
+        render() {
+          return (
+            <main>
+              <h4>Default props</h4>
+              <UuSwap.Entity.Detail data={{
+                id: "tygr01",
+                speciesName: "Bengal tiger",
+                speciesTaxonomyName: "Panthera tigris",
+                class: "Mammalia",
+                order: "Carnivora",
+                family: "Felidae",
+                location: "Asia",
+                description: "",
+              }}/>
+            </main>
+          );
+        },
+      });
+
+      Utils.Dom.render(<Page />, document.getElementById("renderHere"));
+    </script>
+  </body>
+</html>

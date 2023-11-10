@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UuSwapCore.Entity.Detail className="test-classname" 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    className="test-classname"
+    data={{}}
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      className="test-classname"
+      data={{}}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    className="test-classname"
+    data={{}}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail default props 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail disabled=false 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    disabled={false}
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      disabled={false}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    disabled={false}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail disabled=true 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    disabled={true}
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      disabled={true}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    disabled={true}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail elementAttrs={"data":{"test":"data-test-value"}} 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    elementAttrs={
+      {
+        "data": {
+          "test": "data-test-value",
+        },
+      }
+    }
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      elementAttrs={
+        {
+          "data": {
+            "test": "data-test-value",
+          },
+        }
+      }
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    elementAttrs={
+      {
+        "data": {
+          "test": "data-test-value",
+        },
+      }
+    }
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail fullTextSearchPriority=0 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    fullTextSearchPriority={0}
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      fullTextSearchPriority={0}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    fullTextSearchPriority={0}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail hidden=false 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    hidden={false}
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      hidden={false}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    hidden={false}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail hidden=true 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    hidden={true}
+    id="uuID"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      hidden={true}
+      id="uuID"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    hidden={true}
+    id="uuID"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail id="test-id" 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="test-id"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      id="test-id"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    id="test-id"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail nestingLevel="box" 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="uuID"
+    nestingLevel="box"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      id="uuID"
+      nestingLevel="box"
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    id="uuID"
+    nestingLevel="box"
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail nestingLevel="inline" 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="uuID"
+    nestingLevel="inline"
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      id="uuID"
+      nestingLevel="inline"
+    />
+  </Uu5Elements.Modal>
+  <InlineView
+    data={{}}
+    id="uuID"
+    nestingLevel="inline"
+    onClick={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail noPrint=false 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="uuID"
+    noPrint={false}
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      id="uuID"
+      noPrint={false}
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    id="uuID"
+    noPrint={false}
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail noPrint=true 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="uuID"
+    noPrint={true}
+    onClose={[Function]}
+  >
+    <AreaView
+      data={{}}
+      id="uuID"
+      noPrint={true}
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    id="uuID"
+    noPrint={true}
+  />
+</Fragment>
+`;
+
+exports[`UuSwapCore.Entity.Detail style={"margin":8} 1`] = `
+<Fragment>
+  <Uu5Elements.Modal
+    data={{}}
+    header="header"
+    id="uuID"
+    onClose={[Function]}
+    style={
+      {
+        "margin": 8,
+      }
+    }
+  >
+    <AreaView
+      data={{}}
+      id="uuID"
+      style={
+        {
+          "margin": 8,
+        }
+      }
+    />
+  </Uu5Elements.Modal>
+  <AreaView
+    data={{}}
+    id="uuID"
+    style={
+      {
+        "margin": 8,
+      }
+    }
+  />
+</Fragment>
+`;
